@@ -1,8 +1,6 @@
-**
 
 ## changing password of a headless rasberry pi
 
-**
 
  - unplug the rasberry pi cluster and remove the sd card from the slot
  - insert the sd card into a computer, and make sure we should have root 

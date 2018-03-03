@@ -1,8 +1,8 @@
 
-## changing password of a headless rasberry pi
+## changing password of a headless raspberry pi
 
 
- - unplug the rasberry pi cluster and remove the sd card from the slot
+ - unplug the raspberry pi cluster and remove the sd card from the slot
  - insert the sd card into a computer, and make sure we should have root 
  access on that computer
  - locate and edit the etc/shadow file on the sd card
@@ -12,5 +12,5 @@
    we had executed
  - eject the sd card from the computer
  - insert the sd card back into the pi cluster
- - boot the rasberry pi
- - ssh to log into rasberry pi and set up the password
+ - boot the raspberry pi
+ - ssh to log into raspberry pi and set up the password

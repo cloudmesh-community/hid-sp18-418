@@ -1,0 +1,30 @@
+swagger: '2.0'
+info:
+  version: 0.0.1
+  title: MongoDB DataBase Names
+  description: Swagger API to expose MongoDB Tables
+  contact:
+    name: Surya Prakash Sekar
+    email: sursekar@iu.edu
+schemes:
+  - "http"
+  - "https"
+host: "localhost:8080"
+basePath: /
+consumes:
+  - application/json
+produces:
+  - application/json
+tags:
+- name: "DataBase Names"
+  description: "Get the list of DB names from the MongoDB"
+paths:
+  /MongoDB:
+    get:
+      operationId: get Database Names
+      responses:
+        '100':
+          description: Get operation failed
+        '200':
+          description: Success
+

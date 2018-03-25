@@ -1,7 +1,7 @@
 import glob
 import os
-#hid-sp18-*
-hids = glob.glob("../../C:/Users/Surya/AppData/Local/Packages/CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc/LocalState/rootfs/root/github/cloudmesh-community/hid-sample")
+
+hids = glob.glob("../../hid-sp18-*")
 
 for d in hids:
     if os.path.isdir(d):

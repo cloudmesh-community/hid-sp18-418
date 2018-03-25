@@ -1,24 +1,23 @@
-##Run Raspberry Pi with Docker Swarm - Tutorial
+## Run Raspberry Pi with Docker Swarm - Tutorial
 
-###Docker
+### Docker
 A docker is a world’s leading software container technology. A container allows 
 a developer to package the application along with dependencies associated with 
 it and put all in a box which is an isolated environment so that the underlying 
 host operating system is completely abstracted from the application running 
 inside the box.
  
-###Key benefits of Docker:
+### Key benefits of Docker:
 -	Portability
 -	Density
 -	Scalability
 -	Security
 
-###Swarm
+### Swarm
 Swarm is native clustering and scheduling tool for the docker. In the context 
 of swarm, a cluster is a pool of Docker hosts that acts as a bit like a single 
 large docker host. You can also run swarm services and standalone containers on 
-the same Docker instances.
-Set up and use Docker on Raspberry Pi
+the same Docker instances. Set up and use Docker on Raspberry Pi
 In this tutorial, we are going to see how to take several Raspberry Pi devices, 
 cluster them using Docker Swarm and deploying containers to Swarm.
 
@@ -70,7 +69,6 @@ sudo docker swarm join --token SWMTKN-abc...manager...xyz
 o	Run 
 sudo docker swarm join --token SWMTKN-abc...worker...xyz 
 “IP Address of the node” to join node as a worker
-
 •	Finally, we can run sudo docker node ls command to check the status all the 
 nodes.
 

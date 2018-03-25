@@ -55,7 +55,7 @@ Step 6: Install Docker on each node
 	sh; done
  
 Step 7: Creating the swarm
-*create swarm on a single node (this node will be a manager node) 
+* create swarm on a single node (this node will be a manager node) 
 	* ssh into the node and run this command 
 sudo docker swarm init --advertise-addr “IP Address of the node”
 	* The above command’s output (token) can be used to join other nodes to the 

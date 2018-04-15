@@ -1,5 +1,5 @@
 SWAGGERCODEGEN=java -jar swagger-codegen-cli-2.3.1.jar
-YAMLFILE=db.yaml
+YAMLFILE=swagger.yaml
 DESTDIR=server/db/flaskConnexion
 CREATED=server
 
@@ -45,8 +45,7 @@ service: dest
 	$(SWAGGERCODEGEN) generate \
 	-i $(YAMLFILE) \
 	-l python-flask \
-	-o $(DESTDIR) \
-	-D supportPython3=true
+	-o $(DESTDIR)
 	
 	rm *.jar
 	pip install --upgrade pip

@@ -15,11 +15,11 @@ RUN apt-get update -q && apt-get install -qy \
 #RUN apt-get update -q && apt-get install -qy default-jre 
 
 
-
+RUN pip install --upgrade pip
 RUN pip install connexion
 RUN pip install pymongo
 RUN pip install six
-RUN pip install json
+#RUN pip install json
 RUN git clone https://github.com/cloudmesh-community/hid-sp18-418.git
 
 WORKDIR /hid-sp18-418/swagger-docker

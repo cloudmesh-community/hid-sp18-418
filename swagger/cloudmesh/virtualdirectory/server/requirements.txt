@@ -1,0 +1,10 @@
+connexion == 1.1.15
+python_dateutil == 2.6.0
+typing == 3.5.2.2
+setuptools >= 21.0.0
+Flask==0.12
+Flask-PyMongo==0.5.1
+psutil==5.4.3
+pymongo==3.6.0
+simplejson==3.13.2
+

@@ -1,0 +1,7 @@
+FROM mongo:3.6
+LABEL maintainer="surya prakash sekar,<sursekar@iu.edu>"
+
+EXPOSE 27017
+
+RUN apt-get update -y --fix-missing
+RUN apt-get update -y

@@ -55,6 +55,6 @@ The results are available at http://0.0.0.0:8080/MongoDB
 
 
 ## References
-https://stackoverflow.com/questions/31210973/how-do-i-seed-a-mongo-database-using-docker-compose  
-https://hub.docker.com/_/mongo/
-https://stackoverflow.com/questions/7744147/pymongo-keeps-refusing-the-connection-at-27017?utm_medium=organic&utm_source=google_rich_qa&utm_campaign=google_rich_qa
+* https://stackoverflow.com/questions/31210973/how-do-i-seed-a-mongo-database-using-docker-compose  
+* https://hub.docker.com/_/mongo/
+* https://stackoverflow.com/questions/7744147/pymongo-keeps-refusing-the-connection-at-27017 utm_medium=organic&utm_source=google_rich_qa&utm_campaign=google_rich_qa

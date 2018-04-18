@@ -12,6 +12,7 @@ sudo make all
 `  
 
 If incase the connection is refused, we need to remove the mongod.lock file and restart the service before running the make all command:
+
 `
 sudo rm /var/lib/mongodb/mongod.lock
 `

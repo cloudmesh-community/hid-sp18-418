@@ -38,24 +38,14 @@ RUN pip install connexion
 
 RUN pip install pymongo
 
-
 RUN sudo mongod --dbpath /app/data/db --fork --logpath /app/mongodb.log
 
-#RUN sudo rm /var/lib/mongodb/mongod.lock
+RUN sudo mongo --host 127.0.0.1:27017 > out.txt &
 
-#RUN sudo mongod --repair
-
-#RUN sudo service mongoD start
-
-WORKDIR /app/
+EXPOSE 27017
 
 RUN make service
 
-CMD ["make", "start"]
+WORKDIR /app/flaskConnexion
 
-
-
-
-
-
-
+ENTRYPOINT ["python","-m","swagger_server"]

@@ -5,11 +5,20 @@ This service is used to list out all the currently existing databases
 in your MongoDB.
  
 
-The service can be run from the root of the project locally with the command:  
+The service can be run from the root of the project locally with the command: 
 
 `
 sudo make all
 `  
+
+If incase the connection is refused, we need to remove the mongod.lock file and restart the service before running the make all command:
+`
+sudo rm /var/lib/mongodb/mongod.lock
+`
+
+`
+sudo service mongod start
+`
 
 The docker container can be built with the command: 
 

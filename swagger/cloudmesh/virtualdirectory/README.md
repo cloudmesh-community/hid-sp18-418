@@ -19,7 +19,7 @@ runs within the docker container as well.
     cd /hid-sp18-418/swagger/cloudmesh/virtualdirectory
     `
 
-#### Start the MongoDB Instance
+#### MongoDB
 
 ##### Only if there is a mongod.lock file present, run the next command:
 * If incase MongoDB was not shutdown appropriately previously the mongod.lock file created when the service starts does not get dropped. 
@@ -28,18 +28,21 @@ Therefore, there is a need to drop that lock file manually to repair the databas
     `
     sudo rm /var/lib/mongodb/mongod.lock
     `
-
+    
+##### Start the MongoDB Service
 * The MongoDB service instance is started with the command :
     `
     sudo service mongod start
     `
-
+    
+#### Makefile
 * The swagger service can then be run locally with the command: 
 
     `
     sudo make all
     `  
 
+##### Check the results using your browser
 * The results are then available at http://0.0.0.0:8080/MongoDB  
 
 # Sample Output

@@ -9,15 +9,15 @@ runs within the docker container as well.
 
 * Clone the repository with the command
 
-`
+    `
     git clone https://github.com/cloudmesh-community/hid-sp18-418.git
-`  
+    `  
 
 * Navigate to the project directory
 
-`
+    `
     cd /hid-sp18-418/swagger/cloudmesh/virtualdirectory
-`
+    `
 
 #### Start the MongoDB Instance
 

@@ -21,7 +21,7 @@ runs within the docker container as well.
 
 #### MongoDB
 
-##### Only if there is a mongod.lock file present, run the next command:
+##### Only if there is a mongod.lock file present, run the next command else ignore it:
 * If incase MongoDB was not shutdown appropriately previously the mongod.lock file created when the service starts does not get dropped. 
 Therefore, there is a need to drop that lock file manually to repair the database and start it again.
 
